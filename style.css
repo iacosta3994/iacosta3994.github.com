@@ -181,7 +181,6 @@ html {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
-  animation: orb 5s ease infinite;
 }
 
 /* Place the container to the right */
@@ -215,19 +214,7 @@ html {
   border-radius: 6px;
   box-shadow: 6px 6px 2px 1px rgba(120, 69, 216, 0.075);
 }
-/* annimations */
-@keyframes orb {
-  0%,
-  100% {
-    border-radius: 50% 50% 50% 50%/ 50% 50% 50% 50%;
-  }
-  25% {
-    border-radius: 45% 40% 35% 30%/ 40% 35% 30% 35%;
-  }
-  50% {
-    border-radius: 40% 35% 30% 35%/ 45% 40% 35% 30%;
-  }
-}
+
 
 /* || ------------------------------------------------------------Past Projects ------------------------------------------------------------*/
 #past-projects {
